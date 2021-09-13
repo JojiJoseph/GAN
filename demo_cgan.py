@@ -19,6 +19,7 @@ for i in range(10):
         z = np.zeros((1,100))
     y = gen(z, np.array([i]))
     y = tf.reshape(y, (28, 28, 1))
+    plt.axis("off")
     plt.imshow(y, cmap="gray")
 
 st.pyplot(fig)

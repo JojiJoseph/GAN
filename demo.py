@@ -16,6 +16,7 @@ for i in range(9):
     z = np.random.normal(size=(1, 100))
     y = gen.predict(z)
     y = tf.reshape(y, (28, 28, 1))
+    plt.axis("off")
     plt.imshow(y, cmap="gray")
 
 st.pyplot(fig)
