@@ -1,6 +1,6 @@
 # GAN
 
-Implementation of GAN and Conditional GAN.
+Implementation of GAN and Conditional GAN, in tensorflow 2 and pytorch.
 
 GAN is based on the paper [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661).
 
